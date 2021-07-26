@@ -1,0 +1,23 @@
+<div class="modal bs-modal-lg" id="member_modal"  role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">Member? Enter id to login</h4><br>
+                <!-- <p> Valid user ids => ( 1-admin,2,3,4,5,6,7,8,9 )</p> -->
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Member Id<span class="required" style="color: red;"> * </span></label>
+                    <div class="col-md-8">
+                        <input type="text" name="customer_id" id="customer_id">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn default" data-dismiss="modal">Close</button>
+                <button type="button" id="member_modal_submit" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
